@@ -48,7 +48,7 @@ fs.unlink("test.txt", (err) => {
 });
 
 // unlinkSync
-// fs.unlinkSync('test.txt');
+// fs.unlinkSync("test.txt");
 
 fs.mkdir("test", (err) => {
   console.log(err);

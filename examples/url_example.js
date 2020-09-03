@@ -1,6 +1,6 @@
-const url = require('url');
+const url = require("url");
 
-const testUrl = new URL('http://abc.com/index.html?id100&status=on');
+const testUrl = new URL("http://www.abc.com/index.html?id=100&status=on");
 
 // Serialized URL
 console.log(testUrl.href);
@@ -22,7 +22,7 @@ console.log(testUrl.search);
 console.log(testUrl.searchParams);
 
 // Add params
-testUrl.searchParams.append('abc', '123');
+testUrl.searchParams.append("name", "John");
 console.log(testUrl.searchParams);
 
 // Loop through params

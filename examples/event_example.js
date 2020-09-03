@@ -13,8 +13,8 @@ emitter.on(EVENT_1, () => {
 // Destructuring docs:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 
-emitter.on("😲", ({ name }) => {
-  console.log("Emitted by user: " + name);
+emitter.on("😲", (data) => {
+  console.log("Emitted by user: " + data.name);
 });
 
 function DoSomething() {
