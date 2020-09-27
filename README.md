@@ -1,3 +1,5 @@
+<img src="./Seminar.jpeg" width="400px">
+
 ## Some Useful links
 
 #### Semantic versioning in NPM
