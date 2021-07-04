@@ -30,9 +30,7 @@ fs.appendFile("sample.txt", " appended using appendFile", (err) => {
 });
 
 // appendFileSync
-fs.appendFileSync("sample.txt", " appended with appendFileSync", (err) => {
-  if (err) console.log(err);
-});
+fs.appendFileSync("sample.txt", " appended with appendFileSync");
 
 // rename file
 fs.rename("sample.txt", "test.txt", (err) => {
